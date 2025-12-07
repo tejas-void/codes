@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    /* Using while loop */
+    printf("Using while loop:\n");
+    i = 5;
+    while (i <= 15) {
+        printf("%d ", i);
+        i++;
+    }
+
+    printf("\n\nUsing do-while loop:\n");
+
+    /* Using do-while loop */
+    i = 5;
+    do {
+        printf("%d ", i);
+        i++;
+    } while (i <= 15);
+
+    return 0;
+}
